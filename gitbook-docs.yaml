@@ -1,48 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: LaSquale Docs
   structure:
-    - path: README.md
-      title: Welcome to LaSquale
-    - group: Precaution
-      pages:
-        - path: precaution/precaution-1-compatibility.md
-          title: Precaution 1 - Compatibility
-    - group: PART I
-      pages:
-        - path: part-i/step-1-preparing-usb.md
-          title: Step 1 - Preparing USB
-        - path: part-i/step-2-flashing-your-bios.md
-          title: Step 2 - Flashing your BIOS
-        - path: part-i/step-3-configuring-bios.md
-          title: Step 3 - Configuring BIOS
-        - path: part-i/step-4-special-windows-reinstall.md
-          title: Step 4 - Special Windows reinstall
-          pages:
-            - path: part-i/step-4-special-windows-reinstall/amd-raidable.md
-              title: AMD (RAIDABLE)
-            - path: part-i/step-4-special-windows-reinstall/intel-raid0.md
-              title: Intel (RAID0)
-    - group: PART II
-      pages:
-        - path: part-ii/step-5-verify-msinfo32.md
-          title: Step 5 - Verify MSINFO32
-        - path: part-ii/step-6-system-setup.md
-          title: Step 6 - System setup
-        - path: part-ii/step-7-spoofer.md
-          title: Step 7 - Spoofer
-          pages:
-            - path: part-ii/step-7-spoofer/permanent.md
-              title: PERMANENT
-            - path: part-ii/step-7-spoofer/asus-efi.md
-              title: ASUS EFI
-              pages:
-                - path: part-ii/step-7-spoofer/asus-efi/secure-boot-bypass.md
-                  title: Secure Boot Bypass
-        - path: part-ii/step-8-verify-serials.md
-          title: Step 8 - Verify Serials
-        - path: part-ii/step-9-ethernet-settings.md
-          title: Step 9 - Ethernet Settings
-        - path: part-ii/step-10-extra-spoofing.md
-          title: Step 10 - Extra Spoofing
-        - path: part-ii/finalization-important.md
-          title: Finalization (IMPORTANT)
+    - type: space
+      key: lasquale-docs
+      title: LaSquale Docs
+      path: docs
+      default: true
+      content:
+        directory: ./
