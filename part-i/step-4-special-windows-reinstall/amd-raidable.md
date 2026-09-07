@@ -4,7 +4,21 @@
 
 Check your CPU:
 
-**Open Task Manager** → **Click on Performance** → **Click on "CPU"** → **Look on Top right, it will say your CPU**
+**Open Task Manager**
+
+![Task Manager](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_01.png)
+
+**Click on Performance**
+
+![Performance tab](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_02.png)
+
+**Click on "CPU"**
+
+![CPU section](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_03.png)
+
+**Look on Top right, it will say your CPU**
+
+![CPU name](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_04.png)
 
 <details>
 <summary>AM5 Processors</summary>
@@ -32,6 +46,8 @@ If your CPU is not listed here, then it is an AM4 processor. Choose the file bel
 #### Extract drivers to your USB Installation
 
 Right click the drivers files you downloaded and extract them on to your installation medium (USB stick). Your USB should look EXACTLY like the reference image.
+
+![USB reference](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_05.png)
 
 #### Enabling the RAID mode
 
@@ -95,6 +111,10 @@ If you have multiple disks; create an array for each individual disk.
 **Installation for AM4 Processors:**
 
 * Save & exit the BIOS and ensure the USB you set up is plugged into your pc.
+* You should see the Windows setup like the image below!
+
+![Windows Setup](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_06.png)
+
 * Change the language settings if needed.
 * Press `next` in the setup.
 * If the setup asks for product key, select `I don't have a product key`
@@ -102,13 +122,22 @@ If you have multiple disks; create an array for each individual disk.
 * Accept the TOS and `press next`.
 * Now at setup step `Where do you want to install Windows?` you select `Load driver`.
   * You will get a pop-up; select browse
+
+![Load driver](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_07.jpg)
+
   * Navigate to the USB stick.
   * Select the `NVMe_RAID or SATA_RAID` -> Press `Ok`.
   * Choose the first option; "AMD-RAID Bottom Device" Driver, then select `next`.
+
+![AMD-RAID Bottom Device](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_08.png)
+
 * Select `Load driver` again.
   * Navigate to the USB stick.
   * Select the `NVMe_RAID or SATA_RAID` -> Press `Ok`.
   * Choose the third option; "AMD-RAID Controller" Driver, then select `next`.
+
+![AMD-RAID Controller](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_09.png)
+
 * Select the disk you want to install Windows on and press next.
 * Continue to install windows; then you're done!
 {% endtab %}
@@ -117,6 +146,10 @@ If you have multiple disks; create an array for each individual disk.
 **Installation for AM5 Processors:**
 
 * Save & exit the BIOS and ensure the USB you set up is plugged into your pc.
+* You should see the Windows setup like the image below!
+
+![Windows Setup](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_06.png)
+
 * Change the language settings if needed.
 * Press `next` in the setup.
 * If the setup asks for product key, select `I don't have a product key`
@@ -124,13 +157,22 @@ If you have multiple disks; create an array for each individual disk.
 * Accept the TOS and `press next`.
 * Now at setup step `Where do you want to install Windows?` you select `Load driver`.
   * You will get a pop-up; select browse
+
+![Load driver](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_07.jpg)
+
   * Navigate to the USB stick.
   * Select the `NVMe_RAID or SATA_RAID` -> Press `Ok`.
   * Choose the first option; "AMD-RAID Bottom Device" Driver, then select `next`.
+
+![AMD-RAID Bottom Device](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_08.png)
+
 * Select `Load driver` again.
   * Navigate to the USB stick.
   * Select the `NVMe_RAID or SATA_RAID` -> Press `Ok`.
   * Choose the third option; "AMD-RAID Controller" Driver, then select `next`.
+
+![AMD-RAID Controller](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_09.png)
+
 * Select the disk you want to install Windows on and press next.
 * Continue to install windows; then you're done!
 {% endtab %}
@@ -142,3 +184,5 @@ If you have multiple disks; create an array for each individual disk.
 2. **Click Performance**
 3. **Click on "Disk 0 (C:)"**
 4. **Should say on top right "AMD-RAID"**
+
+![AMD-RAID verification](../../images/part-i_step-4-special-windows-reinstall_amd-raidable/img_10.png)

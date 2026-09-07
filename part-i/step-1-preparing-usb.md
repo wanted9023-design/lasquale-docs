@@ -10,12 +10,20 @@
 
 ### Your USB should look like:
 
-*(Insert screenshot)*
+![USB contents](../images/part-i_step-1-preparing-usb/img_01.png)
 
 #### Getting Ethernet Drivers
 
 1. Open **Device Manager**
+
+![Device Manager](../images/part-i_step-1-preparing-usb/img_02.png)
+
 2. Head over to Network Adapters
+
+![Network Adapters](../images/part-i_step-1-preparing-usb/img_03.png)
+
+![Network Adapter details](../images/part-i_step-1-preparing-usb/img_04.png)
+
 3. **Download the correct driver based on your result:**
    * **Realtek Ethernet:**
      Download Realtek Ethernet Driver
@@ -38,6 +46,8 @@ ASUS Motherboards:
 
 1. Open System Information
 2. Look for `BaseBoard Product` and `BaseBoard Manufacturer`.
+
+![System Information](../images/part-i_step-1-preparing-usb/img_05.png)
 
 {% hint style="info" %}
 If your system information is corrupted (shows wrong details) or you're unsure please check your BIOS > EZ Mode, For that open **CMD** as **ADMIN** and type `shutdown /r /fw /t 0`

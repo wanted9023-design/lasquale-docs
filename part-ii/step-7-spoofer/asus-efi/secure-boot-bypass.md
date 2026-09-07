@@ -9,7 +9,11 @@ Before Bypassing Secure Boot:
 
 1. Open LaSquale Loader & navigate to the spoofer tab.
 
+![Spoofer tab](../../../images/part-ii_step-7-spoofer_asus-efi_secure-boot-bypass/img_01.png)
+
 2. Locate the EFI Spoof Button.
+
+![EFI Spoof Button](../../../images/part-ii_step-7-spoofer_asus-efi_secure-boot-bypass/img_02.png)
 
 3. Then click Auto Create Partition.
 

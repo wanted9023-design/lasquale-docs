@@ -1,6 +1,8 @@
 # PERMANENT
 
-*(Insert screenshots of the spoofer interface)*
+![Permanent Spoofer](../../images/part-ii_step-7-spoofer_permanent/img_01.png)
+
+![Permanent Spoof Completed](../../images/part-ii_step-7-spoofer_permanent/img_02.png)
 
 ### Follow these Steps
 

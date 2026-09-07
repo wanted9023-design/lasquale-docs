@@ -14,6 +14,8 @@
    shutdown /r /fw /t 0
    ```
 
+![MSINFO32](../images/part-ii_step-5-verify-msinfo32/img_01.png)
+
 **Important**
 
 * If **any value** in `msinfo32` or BIOS does **not match your original hardware**, **open a ticket**.

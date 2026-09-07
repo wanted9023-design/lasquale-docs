@@ -2,7 +2,11 @@
 
 ### Open LaSquale Loader
 
-*(Insert screenshots of the spoofer interface)*
+![Spoofer Login](../images/part-ii_step-7-spoofer/img_01.png)
+
+![HWID Serials](../images/part-ii_step-7-spoofer/img_02.png)
+
+![Spoofer Interface](../images/part-ii_step-7-spoofer/img_03.png)
 
 After saving your serials to the desktop, run the **Compatibility Checker** to determine which spoofing option you should use.
 

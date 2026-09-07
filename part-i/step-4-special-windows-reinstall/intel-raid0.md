@@ -13,6 +13,8 @@
 
 We are looking for 'SATA Mode' alongside 'M.2 Storage Raid Support'
 
+![SATA Mode location](../../images/part-i_step-4-special-windows-reinstall_intel-raid0/img_01.png)
+
 There are a few possibilities as where it could be:
 
 1. Advanced Mode -> PCH Storage Configuration - Most Common
@@ -54,6 +56,10 @@ Now; Advanced -> Intel(R) RST navigate to `Create RAID Volume`
 #### Installing windows
 
 * Save & exit the BIOS and ensure the USB you set up is plugged into your pc.
+* You should see the Windows setup like the image below!
+
+![Windows Setup](../../images/part-i_step-4-special-windows-reinstall_intel-raid0/img_02.jpg)
+
 * Change the language settings if needed.
 * Press `next` in the setup.
 * If the setup asks for product key, select `I don't have a product key`
@@ -61,9 +67,14 @@ Now; Advanced -> Intel(R) RST navigate to `Create RAID Volume`
 * Accept the TOS and `press next`.
 * Now at setup step `Where do you want to install Windows?` you select `Load driver`.
   * You will get a pop-up; select browse
+
+![Load driver](../../images/part-i_step-4-special-windows-reinstall_intel-raid0/img_03.png)
+
   * Navigate to the USB stick.
   * Then select folder containing your drivers -> Press `Ok`.
   * Control + A; to select all the drivers, then select `next`.
+
+![Select drivers](../../images/part-i_step-4-special-windows-reinstall_intel-raid0/img_04.png)
 * Select the disk you want to install Windows on and press next.
 * Continue to install windows; then you're done!
 
@@ -73,6 +84,8 @@ Now; Advanced -> Intel(R) RST navigate to `Create RAID Volume`
 2. **Click Performance**
 3. **Click on "Disk 0 (C:)"**
 4. **Should say on top right "INTEL RAID"**
+
+![Intel RAID verification](../../images/part-i_step-4-special-windows-reinstall_intel-raid0/img_05.png)
 
 {% hint style="warning" %}
 IF IT'S NOT SHOWING AS "INTEL RAID 0 VOLUME" — OPEN TICKET IN DISCORD SERVER discord.gg/DRr7VmPRkh

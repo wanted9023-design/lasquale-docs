@@ -2,7 +2,9 @@
 
 ### Follow these Steps
 
-*(Insert screenshots of the spoofer interface)*
+![EFI Spoofer](../../images/part-ii_step-7-spoofer_asus-efi/img_01.png)
+
+![EFI Spoof Completed](../../images/part-ii_step-7-spoofer_asus-efi/img_02.png)
 
 As soon as `EFI Spoof completed` appears, close the spoofer.
 You should see a file named `EFIBOOT` on your desktop.
@@ -10,6 +12,10 @@ You should see a file named `EFIBOOT` on your desktop.
 Replug your USB drive.
 Right-click the USB drive, format it to `FAT32`, and rename it as you like.
 Copy everything that is inside the `EFIBOOT` file onto the USB drive.
+
+![EFIBOOT folder](../../images/part-ii_step-7-spoofer_asus-efi/img_03.png)
+
+![USB drive contents](../../images/part-ii_step-7-spoofer_asus-efi/img_04.png)
 
 Now restart your PC and enter BIOS.
 To enter BIOS easily, open **CMD as Administrator** and run:

@@ -16,3 +16,5 @@ Make sure to unplug your USB Drive!
 #### Download the Compatibility Checker
 
 Download the Compatibility Checker and ensure that both Wi-Fi and Bluetooth are either **disabled** or showing as **Unknown**.
+
+![Compatibility Checker](../images/part-ii_step-6-system-setup/img_01.png)
